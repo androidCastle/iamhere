@@ -244,7 +244,7 @@ public class MainMapsActivity extends AppCompatActivity implements OnMapReadyCal
         mGoogleMap.addMarker(marker);
         enableGPSBtnOnMap();
         enableZoomControlsOnMap();
-        setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        setMapType(GoogleMap.MAP_TYPE_NORMAL);
         setRotateGesturesOnMap();
     }
 
